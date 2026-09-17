@@ -1,0 +1,24 @@
+name: Technical Task
+description: Refactor, mantenimiento, automatización o trabajo técnico
+title: "[TECH] "
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objetivo técnico
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Alcance
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Riesgos / impacto
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validación requerida
